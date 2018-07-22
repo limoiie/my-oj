@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/oj.dir/main.cpp.o CMakeFiles/oj.dir/test.cpp.o  -o oj.exe -Wl,--out-implib,liboj.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

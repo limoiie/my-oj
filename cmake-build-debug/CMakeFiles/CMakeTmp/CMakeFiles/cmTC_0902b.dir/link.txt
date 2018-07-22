@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_0902b.dir/feature_tests.c.o  -o cmTC_0902b.exe -Wl,--out-implib,libcmTC_0902b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

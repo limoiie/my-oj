@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="oj"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/Project/local/clion/oj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/Project/local/clion/oj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/Project/local/clion/oj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oj">
+				<Option output="/cygdrive/d/Project/local/clion/oj/cmake-build-debug/oj.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Project/local/clion/oj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 oj"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oj/fast">
+				<Option output="/cygdrive/d/Project/local/clion/oj/cmake-build-debug/oj.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Project/local/clion/oj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 oj/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Project/local/clion/oj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode010.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode023.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode024.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode028.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode035.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode044.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode045.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode048.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode049.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode051.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode052.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode065.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode078.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode079.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode100.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode101.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode102.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode103.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode112.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode113.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode120.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode121.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode122.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode123.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode126.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode127.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode133.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode139.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode152.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode169.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode215.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode347.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode460.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/leetcode473.h">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/main.cpp">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/test.cpp">
+			<Option target="oj"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Project/local/clion/oj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
