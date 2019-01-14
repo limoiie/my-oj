@@ -1,51 +1,40 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
-#include "tree.h"
-#include "tree_travel.h"
+#include <stack>
+#include <sstream>
 
 using namespace std;
-using namespace std;
-using namespace tree;
-using namespace tree::travel;
 
-#define null INT_MIN
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int l = 0, r = static_cast<int>(nums.size()) - 1;
+        while (l <= r) {
+            auto m = (l + r) >> 1;
+            if (nums[m] > nums.back()) {
+                l = m + 1;
+            } else {
+                r = m - 1;
+            }
+        }
+        return nums[l];
+    }
+};
 
-TreeNode<int>* create_a_tree() {
-    return util::create_tree<int>({0, 2, 4, 1, null, 3, -1, 5, 1, null, 6, null, 8}, null);
-}
+void test() {
+    vector<vector<int>> nums_list = {
+            {3,4,5,1,2},
+            {4,5,6,7,0,1,2}
+    };
 
-void test_travelers(TreeNode<int> *tree,
-                    vector<std::shared_ptr<Traveler<int>>> const& travelers,
-    vector<int> const& predicted) {
-
-    for (auto && traveler : travelers) {
-        cout << "traveler..." << endl;
-
-        vector<int> gotten;
-        traveler->travel(tree, [&gotten](tree::travel::Traveler<int>::tree_node_t *node, int const depth) {
-            gotten.push_back(*node->val);
-            return true;
-        });
+    Solution solution;
+    for (auto & nums : nums_list) {
+        cout << solution.findMin(nums) << endl;
     }
 }
 
 int main() {
-    try {
-        auto tree = create_a_tree();
-        auto travelers = vector<std::shared_ptr<tree::travel::Traveler<int>>> {
-                std::make_shared<recurse::PostOrderTraveler<int>>(),
-                std::make_shared<iteration::PostOrderTraveler<int>>(),
-                std::make_shared<iteration::PostOrderTraveler2<int>>(),
-                std::make_shared<morris::PostOrderTraveler<int>>()
-        };
-
-        test_travelers(tree, travelers, vector<int>{5, 1, 1, 2, 6, 3, 8, -1, 4, 0});
-        delete tree;
-    } catch (std::exception &e) {
-        cerr << "Error: " << e.what() << endl;
-    }
-
+    test();
     return 0;
 }

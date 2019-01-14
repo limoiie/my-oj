@@ -51,6 +51,6 @@ add_executable(oj main.cpp
         problems/leetcode036.h
         problems/leetcode303.h
         problems/leetcode032.h
-        tree_travel.h
-        tree.h
+        algorithm/tree_travel.h
+        algorithm/tree.h
         )

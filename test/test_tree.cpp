@@ -7,7 +7,7 @@
 
 #include <gtest/gtest.h>
 
-#include "tree_travel.h"
+#include "algorithm/tree_travel.h"
 
 
 namespace {
