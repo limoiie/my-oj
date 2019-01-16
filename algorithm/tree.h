@@ -28,8 +28,8 @@ namespace algorithm {
             }
 
             ~TreeNode() {
-                delete left;
-                delete right;
+                delete left; left = nullptr;
+                delete right; right = nullptr;
             }
 
             void release_child() {

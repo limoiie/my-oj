@@ -1,7 +1,7 @@
 //
 // Created by limo on 1/12/2019.
 //
-#include <iostream>
+
 #include <string>
 #include <vector>
 
@@ -19,7 +19,7 @@ namespace {
 #define null INT_MIN
 
 
-    TreeNode<int>* create_a_tree() {
+    TreeNode<int> *create_a_tree() {
         return util::create_tree<int>({0, 2, 4, 1, null, 3, -1, 5, 1, null, 6, null, 8}, null);
     }
 
