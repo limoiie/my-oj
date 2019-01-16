@@ -13,8 +13,8 @@
 namespace {
 
     using namespace std;
-    using namespace tree;
-    using namespace tree::travel;
+    using namespace algorithm::tree;
+    using namespace algorithm::tree::travel;
 
 #define null INT_MIN
 
@@ -29,7 +29,7 @@ namespace {
 
         for (auto && traveler : travelers) {
             vector<int> gotten;
-            traveler->travel(tree, [&gotten](tree::travel::Traveler<int>::tree_node_t *node, int const depth) {
+            traveler->travel(tree, [&gotten](Traveler<int>::tree_node_t *node, int const depth) {
                 gotten.push_back(*node->val);
                 return true;
             });
@@ -40,7 +40,7 @@ namespace {
 
     GTEST_TEST(TestTree, test_in_order_travel) { // NOLINT
         auto tree = create_a_tree();
-        auto travelers = vector<std::shared_ptr<tree::travel::Traveler<int>>> {
+        auto travelers = vector<std::shared_ptr<travel::Traveler<int>>> {
                 std::make_shared<recurse::InOrderTraveler<int>>(),
                 std::make_shared<iteration::InOrderTraveler<int>>(),
                 std::make_shared<morris::InOrderTraveler<int>>(),
@@ -52,7 +52,7 @@ namespace {
 
     GTEST_TEST(TestTree, test_pre_order_travel) { // NOLINT
         auto tree = create_a_tree();
-        auto travelers = vector<std::shared_ptr<tree::travel::Traveler<int>>> {
+        auto travelers = vector<std::shared_ptr<travel::Traveler<int>>> {
                 std::make_shared<recurse::PreOrderTraveler<int>>(),
                 std::make_shared<iteration::PreOrderTraveler<int>>(),
                 std::make_shared<morris::PreOrderTraveler<int>>()
@@ -65,7 +65,7 @@ namespace {
     GTEST_TEST(TestTree, test_post_order_travel) { // NOLINT
         try {
             auto tree = create_a_tree();
-            auto travelers = vector<std::shared_ptr<tree::travel::Traveler<int>>> {
+            auto travelers = vector<std::shared_ptr<travel::Traveler<int>>> {
                     std::make_shared<recurse::PostOrderTraveler<int>>(),
                     std::make_shared<iteration::PostOrderTraveler<int>>(),
                     std::make_shared<iteration::PostOrderTraveler2<int>>(),
