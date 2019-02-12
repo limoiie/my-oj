@@ -10,6 +10,7 @@
 #include <memory.h>
 #include <algorithm>
 #include <utility>
+#include <climits>
 #include <cmath>
 #include <memory>
 #include <queue>

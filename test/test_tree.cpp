@@ -4,6 +4,7 @@
 
 #include <string>
 #include <vector>
+#include <climits>
 
 #include <gtest/gtest.h>
 
