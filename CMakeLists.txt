@@ -71,5 +71,4 @@ add_executable(oj main.cpp
         problems/leetcode518.h 
         problems/leetcode147.h
         problems/leetcode041.h
-        problems/leetcode221.h
         )
