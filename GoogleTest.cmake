@@ -31,3 +31,7 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
     include_directories("${gtest_SOURCE_DIR}/include")
 endif()
 include_directories(.)
+
+add_definitions(
+        -DGTEST_DONT_DEFINE_TEST=1
+)
