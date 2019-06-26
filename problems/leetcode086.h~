@@ -1,0 +1,6 @@
+#ifndef LEETCODE086_H
+#define LEETCODE086_H
+
+#include "base.h"
+
+#endif LEETCODE086_H
