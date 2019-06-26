@@ -30,7 +30,7 @@ namespace algorithm {
         }
 
         /*
-         * @brief Get the number which occurs only once in a array where others
+         * @brief Get the number which occurs only once in an array where the others
          * will occur exactly 2 times
          *
          * COST of time/space O(n)/O(1)
@@ -44,7 +44,7 @@ namespace algorithm {
         }
 
         /*
-         * @brief Get the number which occurs only once in a array where others
+         * @brief Get the number which occurs only once in an array where the others
          * will occur exactly 3 times
          *
          * COST of time/space O(n)/O(1)
@@ -63,7 +63,7 @@ namespace algorithm {
         }
 
         /*
-         * @brief Find the maximum gap in sorted style from an array
+         * @brief Find the maximum gap in the sorted version of an array
          * @param nums An array may not be sorted
          *
          * COST of time/space O(n)/O(n)

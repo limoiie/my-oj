@@ -133,8 +133,8 @@ using visit_ft = typename Traveler<T>::visit_ft;
                         std::stack<tree_node_t*> stk({root});
                         while (!stk.empty()) {
                             auto top = stk.top();
-                            if (nullptr == top->left && nullptr == top->right ||
-                                last_visited == top->right || nullptr == top->right && last_visited == top->left) {
+                            if ((nullptr == top->left && nullptr == top->right) ||
+                                last_visited == top->right || (nullptr == top->right && last_visited == top->left)) {
                                 f_visit(top, 0);
                                 last_visited = top;
                                 stk.pop();
