@@ -6,6 +6,7 @@
 
 #include <problems/base.h>
 #include <problems/leetcode131.h>
+#include <algorithm/tree.h>
 
 using namespace std;
 
@@ -43,7 +44,17 @@ void test() {
     print_vector(solution.maxSlidingWindow(v, 3));
 }
 
+struct Compare {
+    int operator()(int const& l, int const& r) {
+        if (l < r) return -1;
+        if (l > r) return 1;
+        return 0;
+    }
+};
+
 int main() {
     test();
+    auto x = new algorithm::tree::AVLTree<int, Compare>();
+    x->insert(1);
     return 0;
 }
